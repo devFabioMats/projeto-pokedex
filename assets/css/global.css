@@ -16,8 +16,9 @@ ol.pokemons {
 
 ol.pokemons li {
     margin: .5rem;
-    padding: 1rem;
+    padding: 2rem 1rem;
     background-color: #14A06F;
     color: #fff;
     border-radius: 1rem;
+    height: 120px;
 }
