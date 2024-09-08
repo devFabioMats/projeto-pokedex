@@ -21,7 +21,7 @@
 by Saepul Nahwan <br>
 Disponível em: https://dribbble.com/shots/6540871-Pokedex-App#
 
-<h2>Linguagens utilizadas</h2>
+<h2>Tecnologias utilizadas</h2>
   
   - HTML
   - CSS
