@@ -1,5 +1,6 @@
 * {
     font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
 }
 
 .content {
@@ -15,10 +16,17 @@ ol.pokemons {
 }
 
 ol.pokemons li {
-    margin: .5rem;
-    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+    padding: 1rem;
     border-radius: 1rem;
     background-color: #14A06F;
     color: #fff;
-    height: 100px;
+}
+
+ol.pokemons li img {
+    max-width: 100px;
+    height: 110px;
+    align-self: flex-end;
 }
