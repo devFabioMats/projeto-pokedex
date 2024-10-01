@@ -7,7 +7,7 @@
             </td>
             <td>
                 <b>Objetivo:</b>
-                <p>O projeto será recriar um "front" de uma pokédex, com alguns pokemons.</p>
+                <p>O projeto será recriar uma pokédex, com alguns pokemons.</p>
                 <p>Aplicação dos conhecimentos obtidos durante a formação de JavaScript</p>
             </td>
         </tr>
