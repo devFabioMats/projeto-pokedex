@@ -15,28 +15,24 @@ function convertPokemonToList(pokemon) {
                 </ol>
 
                 <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg"
-                alt="${pokemon.name}">
+                    alt="${pokemon.name}">
             </div>
         </li>
     `
-
 }
 
-fetch(url)
-    .then((response) => response.json())   // funcao com sintaxe reduzida // retorna uma promessa //sucesso
-    .then((jsonBody) => {
-        console.log(jsonBody)
-    }) // ja vou receber o meu body convertido 
-    .then((pokemonList) => {
+const pokemonList = document.getElementById('pokemonList');
 
-        for (let i = 0; i < pokemonList.results.length; i++) {
+fetch(url)
+    .then((response) => response.json())
+    .then((jsonBody) => jsonBody.results)
+    .then((pokemons) => {
+
+        for (let i = 0; i < pokemonList.length; i++) {
             const pokemon = pokemonList[i];
-            console.log(convertPokemonToList(pokemon))
+            pokemonList.innerHTML += convertPokemonToList(pokemon);
         }
 
     })
-    .catch((error) => console.log(error)) // fracasso
-    .finally(function () { // sempre será executado
-        console.log('Requisição concluída!')
-    })
+    .catch((error) => console.log(error))
 
