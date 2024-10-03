@@ -79,7 +79,6 @@
 }
 
 .pokemon {
-    color: #fff;
     display: flex;
     flex-direction: column;
     margin: .5rem;
@@ -91,6 +90,12 @@
     color: #000;
     opacity: .5;
     text-align: right;
+}
+
+.pokemon .name {
+    color: #fff;
+    margin-bottom: .25rem;
+    text-transform: capitalize;
 }
 
 .pokemon .detail {
