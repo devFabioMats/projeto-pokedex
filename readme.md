@@ -7,7 +7,7 @@
             </td>
             <td>
                 <b>Objetivo:</b>
-                <p>O projeto será recriar uma pokédex, com alguns pokemons.</p>
+                <p>O objetivo do projeto será recriar uma pokédex, com todos os pokémons da 1ª Geração.</p>
                 <p>Aplicação dos conhecimentos obtidos durante a formação de JavaScript</p>
             </td>
         </tr>
@@ -27,4 +27,5 @@ Disponível em: https://dribbble.com/shots/6540871-Pokedex-App#
   - CSS
   - JavaScript
   - Node.JS
+  - Integração via API
 
