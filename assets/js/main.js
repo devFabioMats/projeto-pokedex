@@ -1,7 +1,7 @@
 const pokemonList = document.getElementById('pokemonList');
 const loadMoreButton = document.getElementById('loadMoreButton');
-
-const limit = 10
+const maxRecords = 11;
+const limit = 5;
 let offset = 0;
 
 // convertendo uma lsta de pokemons em uma lista de elementos html
@@ -35,6 +35,10 @@ loadPokemonItens(offset, limit)
 loadMoreButton.addEventListener('click', () => {
     offset += limit;
     loadPokemonItens(limit, offset);
+
+    if (offset >= maxRecords) {
+        loadMoreButton.disabled = true;
+    }   
 });
 
 
