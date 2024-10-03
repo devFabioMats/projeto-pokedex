@@ -135,6 +135,16 @@
     padding: 1rem;
 }
 
+.pagination button {
+    color: #fff;
+    background-color: #6c79db;
+    border: none;
+    border-radius: 1rem;
+    padding: .25rem .5rem;
+    margin: .25rem 0;
+    font-size: .625rem;
+}
+
 @media screen and (min-width: 380px) {
     .pokemons {
         grid-template-columns: 1fr 1fr;
