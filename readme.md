@@ -1,6 +1,5 @@
-<h1>⚡ Projeto: Pokédex ⚡</h1>
-
-<kbd>✅ FINALIZADO ✅</kbd>
+<h1>⚡ Projeto: Pokédex ⚡ 
+<H2> <kbd>✅ FINALIZADO ✅</kbd>
 
   <table>
         <tr>
@@ -15,7 +14,7 @@
         </tr>
     </table>
 
-<h2>Inspiração</h2>
+<h2>🖼️ Inspiração</h2>
 
 <img src="./pics/projeto.png" alt="Projeto">
 
@@ -23,7 +22,7 @@
 by Saepul Nahwan <br>
 Disponível em: https://dribbble.com/shots/6540871-Pokedex-App#
 
-<h2>Informações dos dados dos Pokémons</h2>
+<h2>ℹ️ Informações dos dados dos Pokémons</h2>
 
 <img src="./pics/pokeapi.png" alt="PokeAPI">
 
@@ -34,7 +33,7 @@ Disponível em: https://pokeapi.co/
 
 <img src="./pics/final.png" alt="Final">
 
-<h2>Tecnologias utilizadas</h2>
+<h2>⚙️ Tecnologias utilizadas</h2>
   
   - HTML
   - CSS
